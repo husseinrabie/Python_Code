@@ -15,3 +15,5 @@ print(type(c))
 e = str(d)
 print(e)
 print(type(e))
+
+print ("End of typecasting example")
