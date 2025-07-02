@@ -17,3 +17,15 @@ print(f"The difference of {a} and {b} is {a - b}")
 You can write multiple lines here  
 and it will be ignored by the interpreter
 """
+
+# escape characters
+print("Hello\nWorld")  # New line
+print("Hello\tWorld")  # Tab space
+print("Hello\\World")  # Backslash
+print("Hello\"World")  # Double quote
+print("Hello\'World")  # Single quote
+
+
+## print 
+a=5
+print("Hello World" ,"hussien" ,a ,sep="*" ,end= "\n")  # Custom separator
